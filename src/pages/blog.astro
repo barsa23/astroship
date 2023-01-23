@@ -40,7 +40,7 @@ console.log(posts[0].frontmatter.image);
                     class="w-full rounded-md aspect-video"
                   />
                   <div>
-                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                    <span class="text-blue-200 uppercase tracking-wider text-sm font-medium">
                       {post.frontmatter.category}
                     </span>
 
@@ -49,12 +49,12 @@ console.log(posts[0].frontmatter.image);
                     </h2>
 
                     <div class="flex gap-2 mt-3">
-                      <span class="text-gray-400">
+                      <span class="text-indigo-100">
                         {post.frontmatter.author}
                       </span>
-                      <span class="text-gray-400">• </span>
+                      <span class="text-indigo-100">• </span>
                       <time
-                        class="text-gray-400"
+                        class="text-indigo-100"
                         datetime={post.frontmatter.publishDate}>
                         {getFormattedDate(post.frontmatter.publishDate)}
                       </time>
